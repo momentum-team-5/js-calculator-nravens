@@ -1,0 +1,34 @@
+.calculator {
+    width:400px;
+    margin-right: 10px;  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightskyblue;
+    color: white;
+    
+    text-align: center;
+
+ }
+
+#display {
+    width: 298px;
+    height: 50px;
+    text-align: left;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color:white;
+
+}
+
+.btn {
+    height: 50px;
+    width: 98px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color:white;
+ 
+}
+
+.darkblue {
+    background-color: darkblue;
+}
