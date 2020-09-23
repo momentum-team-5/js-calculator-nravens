@@ -5,7 +5,7 @@ let display = document.getElementById('display')
 console.log(display.id)
 
 for (let element of document.getElementsByClassName('btn')) {
-    element.addEventListener('click', function() {
+    element.addEventListener('click', function(event) {
         console.log(element.innerText)
         if (element.id === 'clear') {
             text = ""
